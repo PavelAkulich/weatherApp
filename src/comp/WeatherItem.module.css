@@ -1,0 +1,18 @@
+
+.listItem{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+.listItem div{
+    text-align: center;
+    font-size: 20px;
+}
+
+.listItem button{
+    margin-left: 20px;
+}
+
+.listItem img{
+    height: 27px;
+}

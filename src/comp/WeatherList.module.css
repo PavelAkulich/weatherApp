@@ -1,0 +1,55 @@
+.message{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(255 175 56 / 56%);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.message span.close{
+    margin-left: 50px;
+    font-size: 30px;
+    color: red;
+    padding: 10px;
+    line-height: 25px;
+    min-width: 45px;
+    max-height: 45px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.message span.close:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.inputForm{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.inputField{
+    display: inline-block;
+    position: relative;
+}
+
+.inputForm input, .inputForm button, .inputForm select{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+select {
+    font-size: 15px !important;
+    position: absolute;
+    left: 0;
+    appearance: none;
+    width: 93%;
+    z-index: 2;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 0 30px;
+}
